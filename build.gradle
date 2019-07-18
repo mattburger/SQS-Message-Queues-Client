@@ -32,12 +32,7 @@ dependencies {
 
     // https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-sqs
     compile group: 'com.amazonaws', name: 'aws-java-sdk-sqs', version: '1.11.593'
-
-    // AWS with Spring
-//    implementation 'org.springframework.cloud:spring-cloud-starter-aws'
-//    implementation 'org.springframework.cloud:spring-cloud-starter-aws-messaging'
-
-
+    
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
 
